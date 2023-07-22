@@ -43,7 +43,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "dev": "SET NODE_ENV=development&& webpack --mode=development --progress --watch",
-    "prod": "SET NODE_ENV=production&& webpack --mode=production --progress"
+    "prod": "webpack --mode=production --progress"
   },
   "eslintConfig": {
     "extends": [
