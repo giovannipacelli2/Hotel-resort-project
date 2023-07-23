@@ -3,6 +3,7 @@ import items from './data';
 /* import Client from './Contentful'; */
 
 const RoomContext = React.createContext();
+console.log(process.env.REACT_APP_API_SPACE);
 
 class RoomProvider extends Component {
 
