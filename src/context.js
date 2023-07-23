@@ -22,7 +22,6 @@ class RoomProvider extends Component {
       pets: false,
     };
 
-    //getData(){}
     getData = async ()=>{
       try {
         /* let response = await Client.getEntries({
