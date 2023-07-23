@@ -15,6 +15,7 @@ const Dotenv = require( "dotenv-webpack" );
 const mode = process.env.NODE_ENV;
 /* const envPath = `.env.${process.env.NODE_ENV}`; */
 const envPath = mode!==undefined ? `.env.${mode}` : '.env';
+
 require("dotenv").config({ path: envPath });
 
 module.exports = (env, argv) => {
